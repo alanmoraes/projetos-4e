@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=NumberDisplay
+comment0.text=\n\ A\ classe\ NumberDisplay\ representa\ um\ mostrador\ de\ n\u00FAmero\ digital\ que\ pode\n\ armazenar\ valores\ de\ zero\ a\ um\ determinado\ limite.\n\ O\ limite\ pode\ ser\ especificado\ durante\ a\ cria\u00E7\u00E3o\ do\ mostrador.\ Os\ valores\n\ variam\ de\ zero\ (inclusive)\ e\ limite\ -1.\ Se\ usado,\ por\ exemplo,\ para\ os\n\ segundos\ em\ um\ rel\u00F3gio\ digital,\ o\ limite\ seria\ 60,\ resultando\ na\ exibi\u00E7\u00E3o\n\ de\ valores\ de\ 0\ a\ 59.\n\ Quando\ incrementado,\ o\ mostrador\ muda\ automaticamente\ para\ zero\ quando\n\ alcan\u00E7ar\ o\ limite.\n\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\n\ @version\ 2008.03.30\n
+comment1.params=rollOverLimit
+comment1.target=NumberDisplay(int)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ NumberDisplay\n\ Define\ o\ limite\ no\ qual\ o\ mostrador\ muda.\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\n\ Retorna\ o\ valor\ atual.\n
+comment3.params=
+comment3.target=java.lang.String\ getDisplayValue()
+comment3.text=\n\ Return\ the\ display\ value\ (that\ is,\ the\ current\ value\ as\ a\ two-digit\n\ String.\ If\ the\ value\ is\ less\ than\ ten,\ it\ will\ be\ padded\ with\ a\ leading\n\ zero).\n
+comment4.params=replacementValue
+comment4.target=void\ setValue(int)
+comment4.text=\n\ Configura\ o\ valor\ do\ mostrador\ como\ o\ novo\ valor\ especificado.\n\ Se\ o\ novo\ valor\ for\ menor\ que\ zero\ ou\ exceder\ o\ limite,\ n\u00E3o\ faz\ nada.\n
+comment5.params=
+comment5.target=void\ increment()
+comment5.text=\n\ Incrementa\ o\ valor\ do\ mostrador\ por\ um,\ mudando\ para\ zero\ se\ o\ limite\n\ for\ alcan\u00E7ado.\n
+numComments=6
